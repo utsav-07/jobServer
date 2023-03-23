@@ -1,12 +1,12 @@
 export const resposeData = {
-    "status": "OK",
-    "request_id": "f904fae7-653b-431a-8e13-ecaf5c2ee4b7",
-    "parameters": {
+    status: "OK",
+    request_id: "f904fae7-653b-431a-8e13-ecaf5c2ee4b7",
+    parameters: {
         "query": "react js",
         "page": 1,
         "num_pages": 1
     },
-    "data": [
+    data: [
         {
             "employer_name": "Zodiac Solutions",
             "employer_logo": null,
