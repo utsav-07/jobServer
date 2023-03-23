@@ -32,8 +32,10 @@ const getJobData = async (req, res) => {
         };
 
         const response  = await axios.request(options);
-        // console.log(response.data.data);
-        res.status(200).json(response);
+        console.log(response);
+      //  const str = CircularJSON.stringify(response);
+        //  console.log(response.data.data);
+        res.status(200).json(response.data.data);
 
     } catch (error) {
         console.log(error);
